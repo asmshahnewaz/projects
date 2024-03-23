@@ -1,0 +1,25 @@
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  text-align: left;
+  justify-content: center;
+  height: 100vh;
+}
+#main {
+  width: 413px;
+  height: 261px;
+  padding: 74px 68px;
+  border: 2px solid #ddd;
+  border-radius: 16px;
+}
+#main h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+#main p {
+  font-size: 20px;
+  font-weight: 500;
+}
