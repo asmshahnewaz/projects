@@ -32,9 +32,10 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #787878;
+  margin-bottom: 28px;
 }
 .icon {
-  margin-top: 28px;
+  padding-top: 14px;
 }
 .icon img {
   margin-right: 12px;
