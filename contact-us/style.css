@@ -63,12 +63,13 @@ label {
   display: block;
 }
 .contact-btn {
-  width: 102px;
-  height: 24px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  width: 262px;
   background: #2d69ff;
   color: #ffffff;
   border-radius: 99px;
-  padding: 16px 0;
+  padding: 16px 16px;
   justify-content: center;
-  text-align: center;
 }
