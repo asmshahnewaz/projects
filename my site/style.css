@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-area {
+  display: flex;
+  /* width: 1100px; */
+  /* margin: 0 auto; */
+  justify-content: space-between;
+}
+.image {
+  align-items: center;
+  /* margin-top: 23px;
+  margin-left: 158px; */
+}
+.logo {
+  align-items: center;
+  margin-top: 20px;
+}
+.nav-bar {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 31px;
+  padding: 8px 0;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 32px;
+}
+.icons {
+  align-items: end;
+  margin-top: 38px;
+}
+.icons a {
+  align-items: end;
+  margin-right: 30px;
+}
+
+.hero-area {
+  background-image: url(./hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  padding-top: 100px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.arrow-down {
+  width: 213px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  width: 450px;
+  height: auto;
+  margin-top: 37px;
+}
+
+.underlined {
+  position: relative;
+  display: inline-block !important;
+  width: 384px;
+}
+
+.underlined::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  height: 7px;
+  width: 100% !important;
+  border: solid 8px #ff5a3c;
+  border-color: #ff5a3c transparent transparent transparent;
+  border-radius: 50%;
+}
+
+.item {
+  margin: 20px;
+}
+.nav {
+  display: block;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.heading-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+.card {
+  width: 320px;
+  height: 370px;
+  box-shadow: 5px 5px 5px 5px 0.8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.card-section {
+  display: flex;
+  gap: 42px;
+  margin-bottom: 120px;
+}
+.arrow-left {
+  margin-top: 160px;
+}
+.arrow-right {
+  margin-top: 160px;
+}
+.cardheading-text {
+  margin-top: 18px;
+  margin-left: 28px;
+}
+.text {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+.text p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.first-price {
+  color: #1d1d1d;
+  margin-right: 15px;
+  text-decoration: line-through;
+}
+.fast-order {
+  background-image: url(./fast\ order.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 486px;
+}
+.order-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  padding-top: 120px;
+}
+.button {
+  color: #fff;
+  background-color: #ff5a3c;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 16px 32px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: none;
+}
+.product-section {
+  display: flex;
+  /* padding-right: 27px; */
+}
+.pimage {
+  margin-right: 27px;
+}
+.first-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.arrows {
+  display: flex;
+  justify-content: right;
+  margin-top: 21px;
+  margin-bottom: 120px;
+}
+.arrow-left1 {
+  margin-right: 10px;
+}
+.blog-section {
+  background: #f9f9f9;
+  height: 860px;
+}
+.blogcard-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 51px;
+  margin-bottom: 110px;
+}
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 35px;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.para {
+  width: 220px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.blog-button {
+  color: #fff;
+  background-color: #ff5a3c;
+  display: flex;
+  padding: 4px 9px;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 26px;
+  border-radius: 6px;
+  border: none;
+}
+.client-section {
+  display: flex;
+  gap: 50px;
+}
+.client-card {
+  display: block;
+  justify-content: center;
+  width: 390px;
+  height: 380px;
+  margin: 0 auto;
+  padding-top: 46px;
+  padding-left: 48px;
+  border: 1px solid #ddd;
+}
+.client-review {
+  text-align: center;
+  width: 292px;
+  height: 144px;
+  margin-bottom: 40px;
+}
+.client-details {
+  margin-bottom: 30px;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-left: 95px;
+  margin-bottom: 50px;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.footer-section {
+  background: #021b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 127px;
+  margin-bottom: 115px;
+
+  gap: 85px;
+}
+.footer-logo {
+  width: 93px;
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 146px;
+  margin-bottom: 90px;
+}
+.logo-paragraph {
+  width: 161px;
+  height: 72px;
+  color: #fff;
+  margin-top: 20px;
+}
+.informtion {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+.information-header {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.anchor {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.account-header {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.customer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.customer-header {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+}
+.feedback-button {
+  color: #fff;
+  background-color: #ff5a3c;
+  display: flex;
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 150px;
+  border-radius: 6px;
+  border: none;
+}
+.feedback-input {
+  width: 270px;
+  padding: 17px 22px;
+  border: 1px solid #ff5a3c;
+  border-radius: 10px;
+  margin: 20px 0;
+}
