@@ -30,6 +30,7 @@ body {
 }
 .nav-anchor {
   text-decoration: none;
+  color: #000;
 }
 .nav-anchor:hover {
   color: #07968c;
@@ -37,6 +38,9 @@ body {
 .nav-toggle {
   display: none;
 }
+/* #check {
+  display: none;
+} */
 .header {
   display: flex;
   justify-content: space-between;
